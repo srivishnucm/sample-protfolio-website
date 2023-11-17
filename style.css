@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&family=Poppins:ital,wght@1,600&display=swap');
+
+body{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.boldFont{
+  font-size: 35px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+/* stick top navbar */
+
+#navbar{
+z-index: 10;
+position: sticky;
+top: 0%;
+background-color: white;
+
+
+}
+
+/* hover line effect for link */
+
+.nav-link{
+display: inline-block;
+font-size: 15px;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+.nav-link:hover{
+  border-bottom: 2px solid blueviolet;
+  transition: .1s;
+}
+/* home section */
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content:start;
+}
+
+
+.heading-style{
+  color:rgb(234,84,73);
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* about section */
+
+.about-section{
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-style{
+
+  font-size: 45px;
+}
+
+.about-img{
+  width: 26rem ;
+
+}
+
+
+/* service section styling */
+
+#services{
+
+  min-height: 100vh;
+}
